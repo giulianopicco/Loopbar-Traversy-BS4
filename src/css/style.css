@@ -2,6 +2,29 @@ body {
   background: #333;
   color: #fff; }
 
-nav {
-  border-bottom: 2px solid #00e8d6;
+.navbar {
+  border-bottom: 3px solid #00e8d6;
   opacity: 0.8; }
+
+#home-section {
+  background: url("../img/home.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+    #home-section .dark-overlay .home-inner {
+      padding-top: 150px; }
+    #home-section .dark-overlay .card-form {
+      opacity: 0.8; }
+    #home-section .dark-overlay .fa {
+      color: #00e8d6;
+      background: #fff;
+      padding: 4px;
+      border-radius: 5px;
+      font-size: 13px; }
